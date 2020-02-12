@@ -1,0 +1,16 @@
+p.color_1 {
+    color: rgb(25, 168, 194);
+    font-family: "DisposableDroid BB";
+    font-size: 40px;
+}
+
+button.color_2 {
+    background-color: rgb(92, 207, 211);
+    border: 0px;
+    height: 20px;
+}
+
+.color_3 {
+    background-color: rgb(92, 207, 211);
+    color: greenyellow;
+}

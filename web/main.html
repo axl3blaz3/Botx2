@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lisa AI</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="bot.ico">
+		    <script type="text/javascript" src="/eel.js"></script>
+			<script type="text/javascript" src="equalizer1.js" async></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+			<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+<div id="vBackID" class="vBack">
+<!-- <canvas id="canvas" onclick='efc();this.disabled = true;'></canvas> -->
+<canvas id="canvas" ></canvas>
+
+
+
+<div class="copy">
+    <h2 id="fire" >Click to Record Voice</h2>
+</div>
+</div>
+<div id="vRegisterPageID" class="vRegisterPage">
+
+<img class="vLogo" src="bot2.png">
+<div id="vTextID" class="vText">Hello, I am Lisa</div>
+
+
+
+<div id="vHumanID" class="rw-wrapper-human">
+    <h1  class="rw-sentence">
+	<span id="vHumanName">Human:</span>
+	<div class="rw-words rw-words-2">
+		<span id="vHumanChatContent"></span>
+	</div>
+	</h1>
+</div>
+
+<div id="vChatID" class="rw-wrapper">
+	<h1 class="rw-sentence">
+		<span>Lisa AI:</span>
+		<div class="rw-words rw-words-2">
+			<span id="vLisaChatContent"></span>
+		</div>
+	</h1>
+</section>
+
+
+</div>
+<input id='vName' type="text" maxlength="15" placeholder="Please enter your name." onkeypress="handle(event)">
+
+
+</body>
+</html>
